@@ -1,0 +1,16 @@
+[
+    {
+        "EMPID": 1,
+        "UID": "00001",
+        "EMAIL_ADDR":"admin@coh.org",
+        "password":"$2a$10$hDXR8Mit9VxXNnjLlZVmz.uHHovMiSuunIY6DGS6NDhd/JwXAFqW.",
+        "FIRST_NAME": "Admin",
+        "LAST_NAME": "Test",
+        "ManagementAccess": "Y",
+        "AdminAccess": "Y" ,
+        "EMPL_STATUS": "A",
+        "Section": "AD",
+        "SubSection": "AD",
+        "NAME": "Admin"
+    }
+]

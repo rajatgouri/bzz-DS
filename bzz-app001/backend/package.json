@@ -1,0 +1,53 @@
+{
+  "name": "bizbots-smart-app-api-express",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js --ignore public/",
+    "production": "NODE_ENV=production",
+    "sample": "node ./data/load-sample-admin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "chokidar": "^3.5.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "es6-promisify": "7.0.0",
+    "express": "4.17.1",
+    "helmet": "^4.6.0",
+    "i": "^0.3.7",
+    "imagemagick": "^0.1.3",
+    "is-url": "^1.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "mssql": "^7.2.1",
+    "multer": "^1.4.4",
+    "node-cron": "^3.0.1",
+    "node-imagemagick": "^0.1.8",
+    "node-nlp": "3.10.2",
+    "nodemailer": "^6.7.3",
+    "npm": "^8.3.0",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "2.7.570",
+    "request": "^2.88.2",
+    "socket.io": "4.2.0",
+    "string-similarity": "^4.0.4",
+    "tesseract.js": "^2.1.5",
+    "text-from-image": "^1.1.1",
+    "textract": "^2.5.0",
+    "xdg-basedir": "^5.1.0",
+    "xlsx": "^0.18.5",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "description": "Bizbots.ai Smart App!",
+  "main": "app.js",
+  "keywords": [],
+  "author": "Bizbots Smart App ",
+  "license": "MIT"
+}
